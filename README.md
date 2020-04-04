@@ -1,84 +1,94 @@
-<!DOCTYPE html>
-<html>
-<head>
-<title>个人简历</title>
-<meta charset="UTF-8">
-<meta name = "author" content = "Eternally">
-<meta name = "keywords" content = "Eternally">
-<mate name="description" content="Eternally的个人简历"/>
-<meta charset="GBK">
-</head>
-<body>
+# Jekyll Resume Theme
 
-<div id="menu" style="background-color:#grey;height:1000px; width:1080px;float:left;center">
-<table border=5 bordercolor=black cellspacing=0 align=center>
-<tr height=120 bgcolor=	#B0C4DE align=center>
-<td width=960 colspan=10 align=center><font face=微软雅黑 size=7><b><a href=https://blog.csdn.net/weixin_43951932/article/details/89974442 target="_blank">刘其贵Demo</b></font></td></tr>
+Live demo at https://jekyll-theme-minimal-resume.netlify.com/
 
-<tr height=60 bgcolor=#B0C4DE align=center>
-<td width=120 colspan=2 align=center><font face=微软雅黑 size=6><b>姓名</b></font></td>
-<td width=120 colspan=2 align=center><font face=微软雅黑 size=6>刘其贵</font></td>
-<td width=120 colspan=2 align=center><font face=微软雅黑 size=6><b>性别</b></font></td>
-<td width=120 colspan=2 align=center><font face=华文行楷 size=6>男</font></td>
-<td width=180  rowspan=4
-><font size=5><img  border=0 src=psb.jpg alt="Eternally" width="180" height="240"></td></tr>
+[![Netlify Status](https://api.netlify.com/api/v1/badges/24d80ae8-c3d9-4645-a6d8-9e97fc8dec3c/deploy-status)](https://app.netlify.com/sites/jekyll-theme-minimal-resume/deploys)
 
-<tr height=60 bgcolor=#B0C4DE align=center>
-<td width=120 colspan=2 align=center><font face=微软雅黑 size=6><b>出生年月</b></font></td>
-<td width=120 colspan=2 align=center><font face=华文行楷 size=6>1998年5月16日</font></td>
-<td width=120 colspan=2 align=center><font face=微软雅黑 size=6><b>民族</b></font></td>
-<td width=120 colspan=2 align=center><font face=华文行楷 size=6>汉</font></td>
-</tr>
+# Stack
 
-<tr height=60 bgcolor=#B0C4DE align=center>
-<td width=120 colspan=2 align=center><font face=微软雅黑 size=6><b>学历</b></font></td>
-<td width=120 colspan=2 align=center><font face=华文行楷 size=6>大学本科</font></td>
-<td width=120 colspan=2 align=center><font face=微软雅黑 size=6><b>专业</b></font></td>
-<td width=120 colspan=2 align=center><font face=华文行楷 size=6>计算机科学与技术</font></td>
-</tr>
+![](https://img.shields.io/badge/jekyll-✓-blue.svg)
+![](https://img.shields.io/badge/html5-✓-blue.svg)
+![](https://img.shields.io/badge/sass-✓-blue.svg)
+![](https://img.shields.io/badge/sweet--scroll-✓-blue.svg)
+![](https://img.shields.io/badge/particle--js-✓-blue.svg)
+![](https://img.shields.io/badge/font--awesome-✓-blue.svg)
+![](https://img.shields.io/badge/devicon-✓-blue.svg)
+![](https://img.shields.io/badge/gulp-✓-blue.svg)
 
-<tr height=60 bgcolor=#B0C4DE align=center>
-<td width=120 colspan=2 align=center><font face=微软雅黑 size=6><b>籍贯</b></font></td>
-<td width=120 colspan=2 align=center><font face=华文行楷 size=6>‘汉’</font></td>
-<td width=120 colspan=2 align=center><font face=微软雅黑 size=6><b>联系电话</b></font></td>
-<td width=120 colspan=2 align=center><font face=华文行楷 size=6>18531700930</font></td>
-</tr>
+***
 
-<tr height=60 bgcolor=#B0C4DE align=center>
-<td width=120  colspan=2 align=center><font face=微软雅黑 size=6><b>毕业学校</b></font></td>
-<td width=120 colspan=8 align=center><font face=华文行楷 size=6>河北农业大学</font></td>
-</tr>
+<h3 align="center">Please help this repo with a :star: if you find it useful! :blush:</h3>
 
-<tr height=60 bgcolor=#B0C4DE align=center>
-<td width=120  colspan=2 align=center><font face=微软雅黑 size=6><b>住址</b></font></td>
-<td width=120 colspan=8 align=center><font face=华文行楷 size=6>河北衡水</font></td>
-</tr>
+***
 
-<tr height=60 bgcolor=#B0C4DE align=center>
-<td width=120  colspan=2 align=center><font face=微软雅黑 size=6><b>邮箱</b></font></td>
-<td width=120 colspan=8 align=center><font face=华文行楷 size=6><pre>18531700930@163.com</pre></font></td>
-</tr>
+# Screenshot
 
-<tr height=150 bgcolor=#B0C4DE align=center>
-<td width=120 colspan=2 align=center><font face=微软雅黑  size=6><b>社会实践</b></font></td>
-<td width=840  colspan=8><font face=华文行楷 size=6>
-<p>  <i>参加过简爱基金的支教活动</i><br>
-     <u>参加过马克思主义学院 的宣传活动</u><br>
-    <sup>参加过在爱中行走活动。</sup></br>
-	 <sub>等等......</sub></p>
-</font></td></tr>
+<p align="center">
+  <img src="https://github.com/murraco/jekyll-theme-minimal-resume/blob/master/screenshot.png" width="90%" />
+</p>
 
-<tr height=180 bgcolor=#B0C4DE >
-<td width=120 colspan=2><font face=微软雅黑  size=6><b>个人简介</b></font></td>
-<td width=840  colspan=8><font face=华文行楷 size=6>
-<ol>	
-<li>爱音乐保密
-<li>爱运动保密
-<li>爱生活保密
-</ol>
-<hr noshade size = 5 align = center width = 100%>
-</font></td></tr>
-</table>
-</div>
-</body>
-</html>
+# Quick Setup
+
+1. Install Jekyll: `gem install jekyll bundler`
+2. Fork this repository and clone your fork
+3. Edit `_config.yml` to personalize your site
+
+# Settings
+
+You have to fill some informations on `_config.yml` to customize your site:
+
+## Site settings
+```yml
+description: A blog about lorem ipsum dolor sit amet
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "http://localhost:3000" # the base hostname & protocol for your site
+```
+
+## User settings
+```yml
+username: Lorem Ipsum
+user_description: Software Engineer at Lorem Ipsum Dolor
+user_title: Mauricio Urraco
+email: mauriurraco@gmail.com
+```
+
+> Don't forget to change your URL before you deploy your site!
+
+# Color and Particle Customization
+
+- Color Customization
+  - Edit the `.sass` variables
+- Particle Customization
+  - Edit the json data in particle function in `app.js`
+  - Refer to `Particle.js` for help
+
+# Content
+
+You can (and should) edit the `.html` files for adding your own information, icons, working experience, social links or whatever you want to add. I.e.:
+
+```html
+<a aria-label="My Github" target="_blank" href="https://github.com/murraco">
+  <i class="icon fa fa-github-alt" aria-hidden="true"></i>
+</a>
+```
+
+# Running locally
+
+In order to compile the assets and run `Jekyll` locally you need to follow those steps:
+
+1. Install Jekyll
+2. Run `jekyll build`
+3. Start and http-server in the folder `_site`
+
+# Contribution
+
+- Report issues
+- Open pull request with improvements
+- Spread the word
+- Reach out to me directly at <mauriurraco@gmail.com>
+
+# Donate
+
+`btc: 36V7HqqENSKn6iFCBuE4iCdtB29uGoCKzN`
+
+`eth: 0xB419E3E9fa2233383E0877d442e55C34B9C944dD`
